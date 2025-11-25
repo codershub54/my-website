@@ -1,0 +1,19 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="sd3Title">
+  <title id="sd3Title">Data skill icon</title>
+  <defs>
+    <linearGradient id="grad4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#667eea" />
+      <stop offset="100%" stop-color="#764ba2" />
+    </linearGradient>
+  </defs>
+  <style>.draw{animation:draw 3s ease-in-out infinite}@keyframes draw{0%{stroke-dashoffset:180}50%{stroke-dashoffset:90}100%{stroke-dashoffset:0}}</style>
+  <circle cx="50" cy="50" r="45" fill="url(#grad4)"/>
+  <polyline class="draw" points="20,70 35,30 50,50 65,25 80,65" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" stroke-dasharray="180" stroke-dashoffset="180"/>
+  <g fill="#fff">
+    <circle cx="20" cy="70" r="3" />
+    <circle cx="35" cy="30" r="3" />
+    <circle cx="50" cy="50" r="3" />
+    <circle cx="65" cy="25" r="3" />
+    <circle cx="80" cy="65" r="3" />
+  </g>
+</svg>

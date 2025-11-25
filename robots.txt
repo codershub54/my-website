@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Point search engines to the sitemap
+Sitemap: https://codershub54.github.io/portfolio-website/sitemap.xml

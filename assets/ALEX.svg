@@ -1,0 +1,28 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-labelledby="akTitle" role="img">
+  <title id="akTitle">Animated avatar for Alex Kumar</title>
+  <defs>
+    <linearGradient id="gradAK" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38b6ff" />
+      <stop offset="100%" stop-color="#0891b2" />
+    </linearGradient>
+  </defs>
+  <style>
+    .bg{animation:float 6s ease-in-out infinite}
+    .eye{animation:blink 4s steps(1,end) infinite}
+    @keyframes float{0%{transform:translateY(0)}50%{transform:translateY(-6px)}100%{transform:translateY(0)}}
+    @keyframes blink{0%,90%{transform:scaleY(1)}93%,97%{transform:scaleY(0.05)}100%{transform:scaleY(1)}}
+  </style>
+  <g class="bg">
+    <circle cx="100" cy="100" r="95" fill="url(#gradAK)"/>
+    <g transform="translate(0,8)">
+      <circle cx="100" cy="60" r="35" fill="#fff" opacity="0.94"/>
+      <g fill="#273241">
+        <ellipse class="eye" cx="88" cy="60" rx="6" ry="6" />
+        <ellipse class="eye" cx="112" cy="60" rx="6" ry="6" />
+      </g>
+      <path d="M70 140 Q70 112 100 112 Q130 112 130 140 L130 180 Q130 196 100 196 Q70 196 70 180 Z" fill="#fff" opacity="0.86"/>
+      <text x="100" y="100" font-size="16" text-anchor="middle" fill="#0f1724" font-weight="700">Francis</text>
+      <text x="100" y="120" font-size="16" text-anchor="middle" fill="#0f1724" font-weight="700">Kinuthia</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,20 @@
+<svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="p3Title">
+  <title id="p3Title">Analytics Dashboard illustration</title>
+  <defs>
+    <linearGradient id="grad8" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#667eea" />
+      <stop offset="100%" stop-color="#764ba2" />
+    </linearGradient>
+  </defs>
+  <style>.trace{animation:dash 4s linear infinite}@keyframes dash{0%{stroke-dashoffset:1000}100%{stroke-dashoffset:0}}</style>
+  <rect width="300" height="200" fill="url(#grad8)"/>
+  <polyline class="trace" points="50,150 100,50 150,100 200,40 250,120" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.9" stroke-dasharray="300"/>
+  <g fill="#fff">
+    <circle cx="50" cy="150" r="4" />
+    <circle cx="100" cy="50" r="4" />
+    <circle cx="150" cy="100" r="4" />
+    <circle cx="200" cy="40" r="4" />
+    <circle cx="250" cy="120" r="4" />
+  </g>
+  <text x="150" y="190" font-size="18" text-anchor="middle" fill="#fafafa" font-weight="700">Analytics Dashboard</text>
+</svg>

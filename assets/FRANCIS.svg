@@ -1,0 +1,28 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-labelledby="dlTitle" role="img">
+  <title id="dlTitle">Animated avatar for David Lee</title>
+  <defs>
+    <linearGradient id="gradDL" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f6ad55" />
+      <stop offset="100%" stop-color="#dd6b20" />
+    </linearGradient>
+  </defs>
+  <style>
+    .bg{animation:float 6s ease-in-out infinite}
+    .eye{animation:blink 4s steps(1,end) infinite}
+    @keyframes float{0%{transform:translateY(0)}50%{transform:translateY(-5px)}100%{transform:translateY(0)}}
+    @keyframes blink{0%,92%{transform:scaleY(1)}95%,98%{transform:scaleY(0.06)}100%{transform:scaleY(1)}}
+  </style>
+  <g class="bg">
+    <circle cx="100" cy="100" r="95" fill="url(#gradDL)"/>
+    <g transform="translate(0,8)">
+      <circle cx="100" cy="60" r="35" fill="#fff" opacity="0.95"/>
+      <g fill="#1f2d3d">
+        <ellipse class="eye" cx="88" cy="60" rx="6" ry="6" />
+        <ellipse class="eye" cx="112" cy="60" rx="6" ry="6" />
+      </g>
+      <path d="M70 140 Q70 112 100 112 Q130 112 130 140 L130 180 Q130 196 100 196 Q70 196 70 180 Z" fill="#fff" opacity="0.86"/>
+      <text x="100" y="100" font-size="16" text-anchor="middle" fill="#0b1220" font-weight="700">Alexander</text>
+      <text x="100" y="120" font-size="16" text-anchor="middle" fill="#0b1220" font-weight="700">Wanyoike</text>
+    </g>
+  </g>
+</svg>

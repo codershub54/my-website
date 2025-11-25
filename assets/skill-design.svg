@@ -1,0 +1,17 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="sd2Title">
+  <title id="sd2Title">Design skill icon</title>
+  <defs>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#667eea" />
+      <stop offset="100%" stop-color="#764ba2" />
+    </linearGradient>
+  </defs>
+  <style>.spin{animation:spin 6s linear infinite}@keyframes spin{0%{transform:rotate(0deg)}100%{transform:rotate(360deg)}}</style>
+  <g class="spin" transform="translate(50,50)">
+    <circle cx="0" cy="0" r="45" fill="url(#grad3)"/>
+    <rect x="-30" y="-30" width="60" height="60" rx="5" fill="none" stroke="#fff" stroke-width="2"/>
+    <circle cx="-15" cy="-15" r="4" fill="#fff"/>
+    <circle cx="15" cy="-15" r="4" fill="#fff"/>
+    <circle cx="0" cy="15" r="4" fill="#fff"/>
+  </g>
+</svg>
